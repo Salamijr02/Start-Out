@@ -6,86 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Start-Out</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/fregan-serif" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <!-- Nav Buttons -->
-            <a href="/"><img src="Images\startout.svg" alt=""></a>
+            <a href="/"><img class="logo-md" src="Images\startout.svg" alt=""></a>
             <ul>
 
-                <li><a href="signin.html">Sign in</a></li>
-                <li><a href="signup.html">Sign up</a></li>
+                <li><a class="btn btn-primary-outline" href="signin.html">Sign in</a></li>
+                <li><a class="btn btn-primary" href="signup.html">Sign up</a></li>
             </ul>
         </nav>
 
         <section>
             <!-- Hero Section -->
-            <h1>Kickstart <span>your coding</span> journey today 🚀</h1>
-            <p>
+            <h1 class="hero-heading">Kickstart <span class="highlight highlight-secondary">your coding</span> journey today 🚀</h1>
+            <p class="hero-paragraph">
                 Start-Out helps absolute beginners learn, practice, and build confidence
                 in coding — one small step at a time
             </p>
 
             <ul>
-                <li><a href="signup.html">Get started</a></li>
-                <li><a href="#">Learn more</a></li>
+                <li><a class="btn btn-primary" href="signup.html">Get started</a></li>
+                <li><a class="btn-primary-outline" href="#">Learn more</a></li>
             </ul>
         </section>
 
     </header>
 
     <main>
-        <section>
-            <h2>Your <span>first step</span> into the world of coding</h2>
+        <section class="features features-section">
+            <h2 class="features-main-heading">Your <span class="highlight highlight-tertiary">first step</span> into the world of coding</h2>
 
             <div>
-                <h3>Learn coding the fun way</h3>
+                <h3 class="orange-text">Learn coding the fun way</h3>
                 <p>
                     Interactive lessons, bite-sized challenges, and instant feedback designed
                     to make learning code enjoyable and less intimidating.
                 </p>
-                <img src="Images\features-1.svg" alt="lorem">
+                <img class="features-img" src="Images\features-1.svg" alt="lorem">
             </div>
 
             <div>
-                <h3>Build small projects that matter</h3>
+                <h3 class="orange-text">Build small projects that matter</h3>
                 <p>
                     Apply what you learn by creating mini-projects that show real results —
                     from simple web pages to beginner apps.
                 </p>
-                <img src="/Images/features-2.svg" alt="lorem">
+                <img class="features-img" src="/Images/features-2.svg" alt="lorem">
             </div>
 
             <div>
-                <h3>Join a supportive community</h3>
+                <h3 class="orange-text">Join a supportive community</h3>
                 <p>
                     Connect with other beginners, share your wins, and grow together in a
                     safe, encouraging environment.
                 </p>
-                <img src="/Images/features-3.svg" alt="lorem">
+                <img class="features-img" src="/Images/features-3.svg" alt="lorem">
             </div>
         </section>
-
-        <section>
-            <h2>Start your journey now</h2>
-            <ul>
-                <li><a href="signup.html">Get started</a></li>
-
-            </ul>
+        <!-- cta-section -->
+        <section class="cta-section">
+            <div class="cta-card">
+                <h2>Start your journey now</h2>
+                <a class="btn btn-secondary" href="signup.html">Get started</a>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <!-- Footer -->
-        <a href="/"><img src="/Images/startout.svg" alt=""></a>
+        <a href="/"><img class="logo-sm" src="/Images/startout.svg" alt=""></a>
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="signin.html">Sign in</a></li>
             <li><a href="signup.html">Sign up</a></li>
         </ul>
-        <p>Made with 💙 for beginners in Univelcity Academy</p>
+        <p class="small-text">Made with 💙 for beginners in Univelcity Academy</p>
     </footer>
 
 </body>
